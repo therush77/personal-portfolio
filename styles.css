@@ -1,0 +1,161 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section {
+
+    background-color: white;
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    padding: 80px;
+    color: white;
+    text-align: center;
+
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+
+}
+
+
+li{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 90px;
+    font-weight: 500px;
+    margin: 0;
+}
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+.button{
+    width: 155px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(41, 40, 38);
+    text-align:center;
+    font-size: 30px;
+    font-weight: 300px;
+    padding-top: 5px;
+    margin-top: 20px;
+    
+}
+
+.button:hover {
+    background-color: rgb(90, 90, 135);
+
+}
+.button:active {
+    background-color: grey;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo{
+    height: 50px;
+    margin: 30px;
+}
+
+.social {
+    margin: 10px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(117, 116, 115);
+    margin: 10px;
+
+}
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.project-image {
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 25px;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(214, 212, 212);
+}
